@@ -5,18 +5,9 @@
     "license": "Unknown",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/your-username/rift/releases/download/v0.1.0/rift-x86_64-pc-windows-msvc.zip",
-            "hash": "d6eda632bf796d0f0b1966dd249c246b2b723223fbb0fca6f2b925e4c960c558"
+            "url": "https://github.com/Mvkweb/rift/releases/download/0.1.0/rift-x86_64-pc-windows-msvc.zip",
+            "hash": "08ed7c3f51c73e28c505caed5ea09f47c96f7bf3748642fdd5b2ffb46771c717"
         }
     },
     "bin": "rift.exe"
-,
-    "checkver": "github",
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/your-username/rift/releases/download/v$version/rift-x86_64-pc-windows-msvc.zip"
-            }
-        }
-    }
 }
