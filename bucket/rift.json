@@ -1,13 +1,16 @@
 {
-    "version": "0.1.0",
-    "description": "Rift is a reference application built upon libscoop",
-    "homepage": "https://github.com/Mvkweb/rift",
-    "license": "Unknown",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/Mvkweb/rift/releases/download/0.1.0/rift-x86_64-pc-windows-msvc.zip",
-            "hash": "08ed7c3f51c73e28c505caed5ea09f47c96f7bf3748642fdd5b2ffb46771c717"
-        }
-    },
-    "bin": "rift.exe"
+  "version": "0.1.0",
+  "description": "Rift is a reference application built upon libscoop",
+  "homepage": "https://github.com/Mvkweb/rift",
+  "license": "Unknown",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/Mvkweb/rift/releases/download/0.1.0/rift.exe",
+      "hash": "sha256:08ed7c3f51c73e28c505caed5ea09f47c96f7bf3748642fdd5b2ffb46771c717"
+    }
+  },
+  "bin": "rift.exe",
+  "installer": {
+    "script": "Move-Item \"$dir\\rift.exe\" \"$dir\\rift.exe\""
+  }
 }
