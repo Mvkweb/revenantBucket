@@ -1,11 +1,11 @@
 {
   "version": "0.7.0",
   "description": "grim.",
-  "homepage": "https://github.com/Mvkweb/rift",
+  "homepage": "https://github.com/Mvkweb/grim",
   "license": "Unknown",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/Mvkweb/revenantBucket/archive/refs/tags/0.7.9.zip",
+      "url": "https://github.com/Mvkweb/revenantBucket/releases/download/0.7.9/grim.exe",
     }
   },
   "bin": "grim.exe",
