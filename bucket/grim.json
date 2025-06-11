@@ -1,10 +1,15 @@
 {
-  "depends": "",
-  "bin": "",
-  "version": "0.7.9",
-  "extract_dir": "",
-  "license": "",
-  "hash": "",
-  "homepage": "",
-  "url": "https://github.com/Mvkweb/revenantBucket/archive/refs/tags/0.7.9.zip"
+  "version": "0.7.0",
+  "description": "grim.",
+  "homepage": "https://github.com/Mvkweb/rift",
+  "license": "Unknown",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/Mvkweb/revenantBucket/archive/refs/tags/0.7.9.zip",
+    }
+  },
+  "bin": "grim.exe",
+  "installer": {
+    "script": "Move-Item \"$dir\\rift.exe\" \"$dir\\rift.exe\""
+  }
 }
